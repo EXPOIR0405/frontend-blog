@@ -1,0 +1,17 @@
+myblog/
+├── src/
+│   ├── app/
+│   │   ├── page.tsx         # 홈페이지
+│   │   ├── posts/
+│   │   │   └── [slug]/
+│   │   │       └── page.tsx # 개별 포스트 페이지
+│   │   └── about/
+│   │       └── page.tsx     # 소개 페이지
+│   ├── components/
+│   │   ├── Header.tsx
+│   │   ├── PostCard.tsx
+│   │   └── CategoryList.tsx
+│   └── styles/
+│       └── globals.css
+└── public/
+    └── images/
